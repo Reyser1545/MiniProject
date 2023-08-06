@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Vithkuqi:wght@500&display=swap');
+
+html{
+    
+    background-color: lavender;
+    font-family: 'Noto Serif Vithkuqi', serif;
+    text-align: center;
+}
+.title{
+
+    font-size: 30px;
+    border-width: 5px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(55, 55, 136);
+    border-color: black;
+
+}
+
+.title>ol{
+    
+    color: coral;
+    text-decoration:none;
+    background-color: aliceblue;
+    border: solid black;
+    border-radius: 100px;
+    padding-left: 0;
+    height: 120px;
+    max-width: 210px;
+    padding-top: 15px;
+    margin-left: 7%;
+
+}
+
+
+.header{
+    
+    font-size: 40px;
+    color:aliceblue;
+    background-image:url(./รูป/blue-neon-cubes-technology-transfer-web-header.jpg);
+    border: solid black;
+    border-width: 6px;
+    
+
+}
+
+
+div>h1{
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    font-size: 60px;
+    color:coral;
+}
+
+a{
+    color: black;
+   
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 250px auto;    
+}
+
+
+
+    div>p{ 
+    font-size: 30px;
+    text-align: left;
+}
+.content{
+    margin-left: 20px;
+    
+}
+
+.content>img{
+    border: solid black;
+    border-width: 5px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+.content>.protait{
+    height: 650px;
+    width: 500px;
+}
+
+.footer{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 90px;
+    background-color: rgb(55, 55, 136);
+    color:aliceblue;
+    border: solid black;
+    border-width: 2px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+
